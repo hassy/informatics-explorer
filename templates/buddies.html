@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  
+  <title>Informatics Explorer</title>
+  
+  <script type="text/javascript" src="/static/jit.js" ></script>
+  <script type="text/javascript" src="/static/jquery.tools.min.js"></script>
+  <script type="text/javascript" src="/static/infexp.js"></script>
+  
+  <style>
+  html, body {  
+    width: 100%;
+    height: 100%;  
+    background-color: #fff;  
+    text-align: center;  
+    font-size: 10px;  
+    font-family: "Lucida Grande", sans-serif;
+  }  
+
+  /* style for the visualization container */  
+  #infovis {  
+    background-color: #fff;  
+    width: 940px;  
+    height: 940px;
+  }  
+
+  /* style for the visualization's labels */  
+  .node {  
+    background-color: #dfdfff;
+    color:#333; 
+    cursor:pointer;  
+    padding:4px;  
+    -webkit-border-radius: 8px;
+    /*display:none;  */
+  }  
+
+  .node:hover {
+  z-index: 1;
+  background-color: #e9e9ff;
+  }
+
+  .hidden {  
+    display:none;  
+  }
+ </style>
+ 
+ <script>
+ function init(pid) {
+   $.getJSON("/buddies/"+pid, function(json) {
+     console.info(json);
+     var canvas = new Canvas('mindmapCanvas', {
+       'injectInto':'infovis',  
+       'width': 940,  
+       'height': 940  
+     });
+
+     window.ht = new RGraph(canvas, {  
+       interpolation: 'polar',  
+       transition: Trans.Elastic.easeOut,
+       duration:3000,
+       fps: 30,
+       levelDistance: 150,
+       Node: {  color: '#1d533a', dim: 1 },
+       Edge: {  color: '#aaa', lineWidth: 2},
+       duration: 1000,
+       clearCanvas: true,
+       withLabels: true,
+       onCreateLabel: function(domElement, node) {  
+         domElement.innerHTML = node.name; 
+         domElement.onclick = function() {
+           var person_id = node.name;
+           $.getJSON("/buddies/"+person_id, function(newjson) {
+             window.ht.op.sum(newjson, {
+               type: "nothing",
+               duration: 1500,
+               hideLabels: false,
+               transition: Trans.Quart.easeOut
+             });
+           });
+           ht.onClick(node.id);
+         };
+       },
+       onPlaceLabel: function(domElement, node) {
+            console.info("yay");
+             var style = domElement.style;
+             style.display = '';
+             style.cursor = 'pointer';
+
+             if (node._depth <= 1) {
+                 style.fontSize = "12px";
+                 style.color = "#212121";
+             } else if(node._depth == 2){
+                 style.fontSize = "10px";
+                 style.color = "#555";
+             } else {
+               style.fontSize = "8px";
+               style.color = "#555";                 
+             }
+
+             if(node == Graph.Util.getClosestNodeToOrigin(window.ht.graph, "pos")) {
+               style.fontSize = "12px";
+               style.color = "#00f";
+             }
+
+             var left = parseInt(style.left);
+             var w = domElement.offsetWidth;
+             style.left = (left - w / 2) + 'px';
+          }
+        });
+
+     window.ht.loadJSON(json);  
+     window.ht.refresh();     
+   });
+ }
+ </script>
+ </head>
+ <body onload="init('paul_jackson');">
+   <h1>click on a node to expand the graph</h1>
+   
+   <div id="infovis">
+   </div>
+  </body>
+</html>

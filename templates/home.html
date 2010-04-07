@@ -1,0 +1,357 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  
+  <title>Informatics Explorer</title>
+  
+  <script type="text/javascript" src="/static/jquery.tools.min.js?v=1"></script>
+
+  <script>
+  String.prototype.capitalize = function(){
+      return this.replace(/\S+/g, function(a){
+          return a.charAt(0).toUpperCase() + a.slice(1).toLowerCase();
+      });
+  };
+
+  var personClicked = function(e) {
+      window.personOverlay.load();
+      $("#personName").html(e.target.innerHTML);
+      var person_id = e.target.innerHTML.toLowerCase().replace(" ", "_");
+      $.getJSON("/person/"+person_id, function(json) {
+
+          if(json.url !== "") {
+              $("#memberOf").html("Member of <a href='" + json.url + "'>" + json.name + "</a>.");
+          }
+
+          var html = "";
+          $.each(json.keywords, function(i) {
+              html += json.keywords[i] + ",&nbsp;&nbsp;"
+          });
+          html = html.substring(0, html.length - 13);
+          $("#personKeywords").html(html);
+          
+          $("#personPicture").attr("src", json.photo_url);
+      });
+
+  }
+
+
+  var wordClicked = function(e) {
+      $("#clearQueryButton").show();
+      var oldQuery = $("#queryWords").val();
+      if(oldQuery == "") {
+          $("#queryWords").val(e.target.innerHTML);
+          $("#queryDisplay").html(e.target.innerHTML);
+      } else {
+          $("#queryWords").val(oldQuery + ", " + e.target.innerHTML);
+          $("#queryDisplay").html($("#queryDisplay").html() + "&nbsp;<span style='color: #3c3;'>&rarr;</span>&nbsp;" + e.target.innerHTML);
+      }
+
+      $("#spinner").toggle();
+      var data = {"queryWords": $("#queryWords").val(),
+                  "peopleCount": $("#people > ul li").length
+                 };
+      $.post("/query", data, function(json) {
+          html = wordCloudHtml(json.weights);
+          $("#wordCloud").html(html);
+
+          html = "<ul>";
+          $.each(json.people, function(i, person_name) {
+              capitalized_name = "";
+              $.each(person_name.split("_"), function(i, comp) {
+                  capitalized_name += comp.capitalize() + " ";
+              });
+              html += "<li><a href='#962' class='dkt'>" + capitalized_name + "</a></li>";
+          });
+          html += "</ul>";
+
+          $("#mp").html("matching people ("+ json.people.length +")");
+
+          $("#people").html(html);
+          $("#spinner").toggle();
+
+          $("#wordCloud > a").bind("click", function(e) { wordClicked(e); });
+          $("#people > ul > li > a").bind("click", function(e) { personClicked(e); });
+
+      }, "json");
+
+  }
+
+  var loadInitialData = function() {
+      $.getJSON("/init_json", function(json) {
+          html = wordCloudHtml(json);
+          $("#wordCloud").html(html);
+          $("a").bind("click", function(e) { wordClicked(e); });
+      });
+  }
+
+  var wordCloudHtml = function(weightsJson) {
+      html = "";
+      var i = 0;
+      $.each(weightsJson, function(word, weight) {
+          if(i % 2 == 0) {
+              html += "<a href='#' class='w" + weight + " zebra1'>" + word + "</a> ";
+          } else {
+              html += "<a href='#' class='w" + weight + " zebra2'>" + word + "</a> ";
+          }
+          i++;
+      });
+      return html;
+  }
+  
+  $(document).ready(    
+    function() {
+        loadInitialData();
+        window.personOverlay = $("#personOverlay").overlay({
+          finish:  { top: 10, left: "center" },
+          effect: "default",
+          speed: 1,
+          
+          expose: {
+            color: "#666",
+            loadSpeed: 1,
+            closeSpeed: "fast",
+            opacity: 0.9
+          },
+          close: ".closeOverlay",
+          api: true
+        });
+        $("#clearQueryButton").bind("click", function(e) { 
+            $("#queryWords").val("");
+            $("#people").html("");
+            $("#mp").html("");
+            $("#queryDisplay").html("");
+            $("#clearQueryButton").hide();
+            loadInitialData();
+        });
+    });
+  </script>
+  
+  <style>
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+    color: #3f3f3f;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4em;
+  }
+  
+  h1, h2, strong {
+    margin: 0;
+  }
+
+  h1 {
+    font-family: Times, serif;
+    color: #454545;
+    padding: 10px 0 10px 20px;
+    font-weight: bold;
+    font-size: 27pt;
+    letter-spacing: -1px;
+    margin: 15px;
+  }
+  
+  h2 {
+    font-size: 15pt;
+    color: #393;
+    padding: 1em 0 0.5em 0;
+  }
+  
+  h1 *, h2 * { vertical-align: middle; }
+  
+  p {
+    padding-top: 0.2em;
+  }
+  
+  textarea {
+    font-size: 12pt;
+    font-family: "Helvetica Neue", sans-serif;
+  }
+  
+  a.dkt {
+    color: #666;
+  }
+  a.dkt:hover {
+    color: #999;
+  }
+  a.dkt:visited {
+    color: #666;
+  }
+  
+  #spinner { font-size: 0.5em; background-color: #ff0; display: none; }
+  #spinner * { vertical-align: middle; }
+  
+  #wordCloud {
+    font-family: "Helvetica Neue", sans-serif;
+    text-align: center;
+    padding: 0.5em;
+    line-height: 2.5em;
+  }
+  
+  #queryDisplay {
+    font-weight: bold;
+    font-size: 12pt;
+    letter-spacing: -1px;
+    color: #666;
+    padding-left: 2em;
+  }
+  
+  /* for terms in the cloud */
+  
+  .zebra1, .zebra2 {
+    text-decoration: none;
+    padding: 5px 9px;
+    /*-moz-border-radius: 12px;
+        -webkit-border-radius: 12px;*/
+  }
+  
+  .zebra1 {
+    color: #33c;
+  }
+  
+  .zebra1:hover {
+    background-color: #339;
+    color: #eee;
+  }
+  
+  .zebra1:active {
+    color: #ff9;
+  }
+  
+  .zebra2 {
+    color: #4b4b4b;
+  }
+  
+  .zebra2:hover {
+    background-color: #4b4b4b;
+    color: #eee;
+  }
+  
+  .zebra2:active {
+    color: #ff9;
+  }
+  
+  /* for word cloud */
+  
+  .w1  { font-size: 12pt; }
+  .w2  { font-size: 14pt; }
+  .w3  { font-size: 16pt; }
+  .w4  { font-size: 18pt; }
+  .w5  { font-size: 20pt; }
+  .w6  { font-size: 22pt; }
+  .w7  { font-size: 24pt; }
+  .w8  { font-size: 26pt; }
+  .w9  { font-size: 28pt; }
+  .w10 { font-size: 30pt; }
+
+
+  /* overlay */
+  div.overlay {
+  	background-image:url("/static/white.png");
+    width: 330px;
+  	display: none;
+  	padding: 10px 30px 30px 30px;
+  	font-size: 80%;
+  	background-color: #f0f0f0;
+  	border: 1px solid #666;
+  }
+
+  div.overlay h1 {
+      margin: 10px 0;
+  }
+
+  div.overlay h2 {
+      margin: 10px 0;
+  }
+
+  div.overlay div.closeOverlay {
+  	background-image: url("/static/close.png");
+  	position: absolute;
+  	right: 5px;
+  	top: 5px;
+  	cursor: pointer;
+  	height: 35px;
+  	width: 35px;
+  }
+
+  div.overlay div.closeOverlay:hover {
+      background-image: url("/static/close_hover.png");
+  }
+
+  .overlay input[type="text"] {
+      width: 95%;
+  }
+
+  </style>
+</head>
+
+<body>
+  <h1>
+    <span style="font-family: Verdana, sans-serif;">&rarr;</span> <span style="border-bottom: 3px solid #ccc; padding-bottom: 5px;">Informatics Explorer</span>
+  </h1>
+
+  <div style="width: 900px; margin: 0 auto; border: 1px solid #fff;">
+
+    <p>
+      <strong>What?</strong>
+      So, we downloaded all the PDFs we could find from <kbd>homepages.inf.ed.ac.uk</kbd>, converted them to plain text, extracted keywords,
+      and ranked those keywords by relevance for each person. Then we visualized that data.
+    </p>
+    
+    <p>This is a word cloud visualization. There's an <a href="/buddies">interactive graph one</a> and a <a href="/static_graph">static one</a> as well.
+    
+    <p>
+      <strong>How?</strong>
+      Click on a keyword to add it to your query, see a list of people who share all of the keywords on right. Click on a person's name to find out more about them. Click on another word in the new word cloud to narrow down the list of people.
+    </p>
+  <table>
+    <tr valign="top">
+      <td>
+        <h2>click on a keyword to add it to query</h2>
+        <div style="width: 450px;">
+          <div id="wordCloud"></div>
+        </div>
+
+        <div>
+          <span id="spinner">loading... <img src="/static/spinner.gif" /></span>
+          <h2>your query <button id="clearQueryButton" style="display: none;">Clear query and start over</button></h2>
+          <div id="queryDisplay" style="max-width: 420px; width: 420px;"><em>empty</em></div>
+          <textarea id="queryWords" disabled style="width: 98%; height: 40px; display: none;"></textarea>
+        </div>
+      </td>
+      <td>
+        <div>
+          <h2 id="mp"></h2>
+          <div id="people"></div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <p style="margin-top: 80px;">
+    We have around 200 researchers in our database right now. <strong>Disclaimers:</strong> only the papers on <kbd>homepages.inf.ed.ac.uk</kbd> have been crawled. Pictures associated with names may be wrong - we used Google Image Search to fetch them.
+  </p>
+
+
+  <div style="color: #999; font-size: 10pt; text-align: center; margin-top: 60px;">
+    This is an <a href="http://idea.ed.ac.uk/IDEA/Welcome.html" class="dkt">IDEA lab</a> &amp; <a href="http://vidiowiki.com" class="dkt">Vidiowiki</a> project. Code+data is here: <a href="http://github.com/hassy/infexp" class="dkt">github.com/hassy/infexp</a>
+  </div>
+  </div>
+  
+  <div id="personOverlay" class="overlay">
+    <div class="closeOverlay"></div>
+    <h2 id="personName">name here</h2>
+    
+    <img id="personPicture" src="" style="max-height: 200px; max-width: 250px;" />
+    
+    <p id="memberOf"></p>
+    
+    <strong>Keywords</strong>
+    <p id="personKeywords"></p>
+  </div>
+  
+  </body>
+</html>

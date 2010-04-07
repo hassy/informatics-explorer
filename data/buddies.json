@@ -1,0 +1,684 @@
+{
+    "abhishek_arun": [
+        "abhishek_arun", 
+        "george_christelis", 
+        "francesco_figari"
+    ], 
+    "adam_lopez": [
+        "adam_lopez"
+    ], 
+    "adrian_haith": [], 
+    "alan_black": [
+        "rowland_sillito", 
+        "alan_black", 
+        "yijun_xiao", 
+        "paul_taylor", 
+        "michael_chan", 
+        "jafreezal_jaafar", 
+        "stephen_potter", 
+        "julian_gutierrez"
+    ], 
+    "alan_bundy": [
+        "alan_bundy", 
+        "alastair_murray"
+    ], 
+    "alastair_murray": [
+        "alan_bundy", 
+        "edwin_bonilla", 
+        "alastair_murray", 
+        "zheng_wang", 
+        "paul_jackson", 
+        "john_thomson"
+    ], 
+    "alex_lascarides": [
+        "alex_lascarides"
+    ], 
+    "alexander_simpson": [], 
+    "alexander_voss": [], 
+    "alexandros-sotiris_belesiotis": [], 
+    "alison_pease": [
+        "finlay_stewart", 
+        "subramanian_ramamoorthy", 
+        "alison_pease", 
+        "moa_johansson", 
+        "bahareh_afshari", 
+        "michael_chan", 
+        "jafreezal_jaafar"
+    ], 
+    "allan_clark": [], 
+    "amin_coja-oghlan": [
+        "amin_coja-oghlan"
+    ], 
+    "amos_storkey": [], 
+    "amy_isard": [
+        "amy_isard"
+    ], 
+    "andrew_blake": [
+        "andrew_blake"
+    ], 
+    "andrew_dai": [], 
+    "andrew_fugard": [], 
+    "annabel_harrison": [], 
+    "anthony_to": [], 
+    "aristeidis_efthymiou": [], 
+    "aroosha_laghaee": [], 
+    "bahareh_afshari": [
+        "alison_pease", 
+        "pei-yun_hsueh", 
+        "bahareh_afshari", 
+        "julian_bradfield", 
+        "sean_wilson", 
+        "richard_mayr", 
+        "mary_cryan"
+    ], 
+    "barbara_webb": [
+        "barbara_webb"
+    ], 
+    "barry_haddow": [
+        "subramanian_ramamoorthy", 
+        "barry_haddow"
+    ], 
+    "beatrice_alex": [], 
+    "benedict_kavanagh": [], 
+    "benjamin_hachey": [
+        "benjamin_hachey"
+    ], 
+    "benjamin_williams": [], 
+    "bilal_malik": [], 
+    "bjoern_franke": [], 
+    "bonnie_webber": [], 
+    "carlos_acosta-leon": [], 
+    "carsten_brockmann": [
+        "carsten_brockmann"
+    ], 
+    "charles_sutton": [
+        "charles_sutton"
+    ], 
+    "chris_fensch": [], 
+    "chris_williams": [
+        "chris_williams"
+    ], 
+    "christophe_dubach": [
+        "christophe_dubach"
+    ], 
+    "christopher_ball": [], 
+    "christopher_bishop": [], 
+    "christopher_geib": [
+        "finlay_stewart", 
+        "rowland_sillito", 
+        "willem_heijltjes", 
+        "yijun_xiao", 
+        "paul_taylor", 
+        "michael_chan", 
+        "george_christelis", 
+        "francesco_figari", 
+        "jafreezal_jaafar", 
+        "stephen_potter", 
+        "john_thomson", 
+        "julian_gutierrez", 
+        "christopher_geib"
+    ], 
+    "christopher_walton": [], 
+    "cian_odonnell": [], 
+    "claire_grover": [], 
+    "colin_fraser": [], 
+    "colin_stirling": [], 
+    "constantino_ribeiro": [], 
+    "damon_fenacci": [], 
+    "daniel_jones": [], 
+    "dave_robertson": [], 
+    "david_aspinall": [
+        "david_aspinall"
+    ], 
+    "david_barber": [], 
+    "david_glasspool": [], 
+    "david_lambert": [], 
+    "david_sterratt": [], 
+    "david_willshaw": [], 
+    "donald_sannella": [], 
+    "douglas_armstrong": [], 
+    "edwin_bonilla": [
+        "edwin_bonilla", 
+        "alastair_murray", 
+        "zheng_wang", 
+        "john_thomson"
+    ], 
+    "emily_thomforde": [], 
+    "ewan_klein": [], 
+    "ewen_denney": [], 
+    "ewen_maclean": [], 
+    "felix_agakov": [], 
+    "finlay_stewart": [
+        "finlay_stewart", 
+        "rowland_sillito", 
+        "subramanian_ramamoorthy", 
+        "alison_pease", 
+        "willem_heijltjes", 
+        "yijun_xiao", 
+        "paul_taylor", 
+        "michael_chan", 
+        "graham_ritchie", 
+        "george_christelis", 
+        "jafreezal_jaafar", 
+        "stephen_potter", 
+        "julian_gutierrez", 
+        "christopher_geib", 
+        "mary_cryan"
+    ], 
+    "fiona_mcneill": [
+        "fiona_mcneill"
+    ], 
+    "francesco_figari": [
+        "abhishek_arun", 
+        "willem_heijltjes", 
+        "yijun_xiao", 
+        "michael_chan", 
+        "graham_ritchie", 
+        "george_christelis", 
+        "francesco_figari", 
+        "jafreezal_jaafar", 
+        "stephen_potter", 
+        "sofia_pediaditaki", 
+        "christopher_geib", 
+        "mary_cryan"
+    ], 
+    "frank_keller": [
+        "frank_keller"
+    ], 
+    "gagarine_yaikhom": [], 
+    "gayathri_nadarajan": [
+        "gayathri_nadarajan"
+    ], 
+    "george_christelis": [
+        "abhishek_arun", 
+        "finlay_stewart", 
+        "rowland_sillito", 
+        "willem_heijltjes", 
+        "yijun_xiao", 
+        "paul_taylor", 
+        "michael_chan", 
+        "paul_jackson", 
+        "george_christelis", 
+        "francesco_figari", 
+        "jafreezal_jaafar", 
+        "stephen_potter", 
+        "julian_gutierrez", 
+        "christopher_geib"
+    ], 
+    "georgios_petkos": [], 
+    "gerhard_wickler": [
+        "gerhard_wickler"
+    ], 
+    "gordon_plotkin": [], 
+    "graham_ritchie": [
+        "finlay_stewart", 
+        "subramanian_ramamoorthy", 
+        "willem_heijltjes", 
+        "michael_chan", 
+        "paul_jackson", 
+        "graham_ritchie", 
+        "francesco_figari", 
+        "jan_wessnitzer", 
+        "stephen_potter", 
+        "sofia_pediaditaki"
+    ], 
+    "grant_passmore": [], 
+    "gudmund_grov": [
+        "gudmund_grov"
+    ], 
+    "guido_sanguinetti": [], 
+    "guy_billings": [], 
+    "helen_pain": [], 
+    "henry_thompson": [], 
+    "heriberto_cuayahuitl": [], 
+    "hieu_hoang": [], 
+    "hiroshi_shimodaira": [], 
+    "hugh_leather": [], 
+    "ian_stark": [
+        "ian_stark"
+    ], 
+    "igor_bohm": [], 
+    "iyad_rahwan": [
+        "iyad_rahwan"
+    ], 
+    "jafreezal_jaafar": [
+        "finlay_stewart", 
+        "rowland_sillito", 
+        "alison_pease", 
+        "alan_black", 
+        "willem_heijltjes", 
+        "yijun_xiao", 
+        "paul_taylor", 
+        "michael_chan", 
+        "george_christelis", 
+        "francesco_figari", 
+        "jafreezal_jaafar", 
+        "stephen_potter", 
+        "john_thomson", 
+        "julian_gutierrez", 
+        "christopher_geib"
+    ], 
+    "james_bednar": [], 
+    "james_cheney": [
+        "james_cheney"
+    ], 
+    "jan_wessnitzer": [
+        "graham_ritchie", 
+        "jan_wessnitzer"
+    ], 
+    "jane_hillston": [], 
+    "jaroslav_sevcik": [], 
+    "jay_bradley": [], 
+    "jean_carletta": [
+        "jean_carletta"
+    ], 
+    "jeffrey_dalton": [], 
+    "jessica_chen-burger": [
+        "jessica_chen-burger"
+    ], 
+    "jim_miller": [], 
+    "joanna_young": [], 
+    "john_lee": [], 
+    "john_longley": [], 
+    "john_power": [], 
+    "john_thomson": [
+        "edwin_bonilla", 
+        "alastair_murray", 
+        "zheng_wang", 
+        "jafreezal_jaafar", 
+        "john_thomson", 
+        "christopher_geib"
+    ], 
+    "jolyon_frankel": [], 
+    "jon_oberlander": [
+        "sean_hammond", 
+        "jon_oberlander"
+    ], 
+    "jonathan_kilgour": [], 
+    "joseph_spadavecchia": [
+        "joseph_spadavecchia"
+    ], 
+    "judith_good": [], 
+    "judith_kirkwood-law": [], 
+    "julian_bradfield": [
+        "bahareh_afshari", 
+        "julian_bradfield", 
+        "paul_jackson", 
+        "richard_mayr", 
+        "julian_gutierrez"
+    ], 
+    "julian_gutierrez": [
+        "finlay_stewart", 
+        "rowland_sillito", 
+        "alan_black", 
+        "willem_heijltjes", 
+        "paul_taylor", 
+        "michael_chan", 
+        "julian_bradfield", 
+        "paul_jackson", 
+        "george_christelis", 
+        "jafreezal_jaafar", 
+        "richard_mayr", 
+        "stephen_potter", 
+        "julian_gutierrez", 
+        "christopher_geib"
+    ], 
+    "kallirroi_georgila": [
+        "kallirroi_georgila"
+    ], 
+    "kate_byrne": [
+        "kate_byrne"
+    ], 
+    "keith_stenning": [], 
+    "konstantinos_krikellas": [
+        "konstantinos_krikellas", 
+        "mahesh_marina", 
+        "michael_chan"
+    ], 
+    "kousha_etessami": [
+        "kousha_etessami"
+    ], 
+    "lawrence_murray": [], 
+    "le_zhang": [], 
+    "leonid_libkin": [], 
+    "liangxiu_han": [], 
+    "louise_dennis": [], 
+    "lucas_dixon": [
+        "lucas_dixon"
+    ], 
+    "mahesh_marina": [
+        "konstantinos_krikellas", 
+        "mahesh_marina", 
+        "paul_taylor", 
+        "sofia_pediaditaki"
+    ], 
+    "malvina_nissim": [], 
+    "marcelo_cintra": [
+        "marcelo_cintra"
+    ], 
+    "marek_kwiatkowski": [
+        "marek_kwiatkowski", 
+        "zheng_wang"
+    ], 
+    "mark_longair": [], 
+    "mark_mcconville": [
+        "mark_mcconville"
+    ], 
+    "mark_steedman": [], 
+    "mary_cryan": [
+        "finlay_stewart", 
+        "rowland_sillito", 
+        "subramanian_ramamoorthy", 
+        "bahareh_afshari", 
+        "michael_chan", 
+        "paul_jackson", 
+        "francesco_figari", 
+        "richard_mayr", 
+        "sofia_pediaditaki", 
+        "mary_cryan"
+    ], 
+    "massimo_felici": [
+        "massimo_felici"
+    ], 
+    "matthew_aylett": [
+        "matthew_aylett"
+    ], 
+    "matthias_hennig": [], 
+    "michael_berger": [], 
+    "michael_chan": [
+        "finlay_stewart", 
+        "rowland_sillito", 
+        "konstantinos_krikellas", 
+        "alison_pease", 
+        "alan_black", 
+        "willem_heijltjes", 
+        "yijun_xiao", 
+        "paul_taylor", 
+        "michael_chan", 
+        "paul_jackson", 
+        "graham_ritchie", 
+        "nikolas_ioannou", 
+        "george_christelis", 
+        "francesco_figari", 
+        "jafreezal_jaafar", 
+        "julian_gutierrez", 
+        "sofia_pediaditaki", 
+        "christopher_geib", 
+        "mary_cryan"
+    ], 
+    "michael_dewar": [], 
+    "michael_fourman": [], 
+    "michael_mangan": [], 
+    "michael_pedersen": [
+        "michael_pedersen"
+    ], 
+    "michael_rovatsos": [], 
+    "mike_just": [], 
+    "miles_osborne": [], 
+    "mirella_lapata": [
+        "mirella_lapata"
+    ], 
+    "moa_johansson": [
+        "alison_pease", 
+        "moa_johansson"
+    ], 
+    "murray_cole": [
+        "murray_cole"
+    ], 
+    "narayanan_edakkunni": [], 
+    "nigel_goddard": [], 
+    "nigel_topham": [
+        "nigel_topham"
+    ], 
+    "nikolas_ioannou": [
+        "rowland_sillito", 
+        "michael_chan", 
+        "paul_jackson", 
+        "nikolas_ioannou"
+    ], 
+    "ohad_kammar": [], 
+    "oliver_lemon": [], 
+    "oscar_almer": [], 
+    "paolo_besana": [
+        "paolo_besana"
+    ], 
+    "patrick_creed": [], 
+    "patrick_sturt": [], 
+    "paul_anderson": [], 
+    "paul_crook": [], 
+    "paul_jackson": [
+        "subramanian_ramamoorthy", 
+        "willem_heijltjes", 
+        "alastair_murray", 
+        "michael_chan", 
+        "julian_bradfield", 
+        "paul_jackson", 
+        "graham_ritchie", 
+        "nikolas_ioannou", 
+        "george_christelis", 
+        "sean_wilson", 
+        "richard_mayr", 
+        "julian_gutierrez", 
+        "mary_cryan"
+    ], 
+    "paul_taylor": [
+        "finlay_stewart", 
+        "rowland_sillito", 
+        "alan_black", 
+        "willem_heijltjes", 
+        "mahesh_marina", 
+        "yijun_xiao", 
+        "paul_taylor", 
+        "michael_chan", 
+        "george_christelis", 
+        "jafreezal_jaafar", 
+        "stephen_potter", 
+        "julian_gutierrez", 
+        "christopher_geib"
+    ], 
+    "pei-yun_hsueh": [
+        "pei-yun_hsueh", 
+        "bahareh_afshari"
+    ], 
+    "perdita_stevens": [], 
+    "peter_buneman": [
+        "peter_buneman"
+    ], 
+    "philip_wadler": [], 
+    "philipp_koehn": [], 
+    "rahul_santhanam": [], 
+    "randy_pollack": [
+        "randy_pollack"
+    ], 
+    "richard_cox": [], 
+    "richard_mayr": [
+        "rowland_sillito", 
+        "subramanian_ramamoorthy", 
+        "bahareh_afshari", 
+        "julian_bradfield", 
+        "paul_jackson", 
+        "sean_wilson", 
+        "richard_mayr", 
+        "julian_gutierrez", 
+        "mary_cryan"
+    ], 
+    "richard_shillcock": [], 
+    "richard_tobin": [], 
+    "robert_fisher": [
+        "robert_fisher"
+    ], 
+    "robert_kyle": [], 
+    "robert_procter": [], 
+    "rodney_burstall": [], 
+    "roland_ibbett": [], 
+    "ronan_daly": [], 
+    "rowland_sillito": [
+        "finlay_stewart", 
+        "rowland_sillito", 
+        "alan_black", 
+        "willem_heijltjes", 
+        "yijun_xiao", 
+        "paul_taylor", 
+        "michael_chan", 
+        "nikolas_ioannou", 
+        "george_christelis", 
+        "jafreezal_jaafar", 
+        "richard_mayr", 
+        "julian_gutierrez", 
+        "christopher_geib", 
+        "mary_cryan"
+    ], 
+    "sasha_calhoun": [
+        "sasha_calhoun"
+    ], 
+    "scott_blunsden": [
+        "scott_blunsden"
+    ], 
+    "sean_hammond": [
+        "sean_hammond", 
+        "jon_oberlander"
+    ], 
+    "sean_wilson": [
+        "bahareh_afshari", 
+        "paul_jackson", 
+        "sean_wilson", 
+        "richard_mayr"
+    ], 
+    "sebastian_riedel": [], 
+    "sethu_vijayakumar": [
+        "sethu_vijayakumar"
+    ], 
+    "shahriar_bijani": [], 
+    "sharon_givon": [], 
+    "sharon_goldwater": [
+        "sharon_goldwater"
+    ], 
+    "shmuel_brody": [], 
+    "shuai_ma": [
+        "shuai_ma"
+    ], 
+    "simon_king": [], 
+    "sofia_pediaditaki": [
+        "subramanian_ramamoorthy", 
+        "mahesh_marina", 
+        "michael_chan", 
+        "graham_ritchie", 
+        "francesco_figari", 
+        "stephen_potter", 
+        "sofia_pediaditaki", 
+        "mary_cryan"
+    ], 
+    "sripriya_g": [], 
+    "stephen_gilmore": [
+        "stephen_gilmore"
+    ], 
+    "stephen_potter": [
+        "finlay_stewart", 
+        "subramanian_ramamoorthy", 
+        "alan_black", 
+        "paul_taylor", 
+        "graham_ritchie", 
+        "george_christelis", 
+        "francesco_figari", 
+        "jafreezal_jaafar", 
+        "stephen_potter", 
+        "julian_gutierrez", 
+        "sofia_pediaditaki", 
+        "christopher_geib"
+    ], 
+    "steve_renals": [], 
+    "stratis_viglas": [], 
+    "stuart_aitken": [
+        "stuart_aitken"
+    ], 
+    "stuart_anderson": [], 
+    "subramanian_ramamoorthy": [
+        "finlay_stewart", 
+        "subramanian_ramamoorthy", 
+        "alison_pease", 
+        "willem_heijltjes", 
+        "paul_jackson", 
+        "graham_ritchie", 
+        "richard_mayr", 
+        "stephen_potter", 
+        "sofia_pediaditaki", 
+        "barry_haddow", 
+        "mary_cryan"
+    ], 
+    "taku_komura": [
+        "taku_komura"
+    ], 
+    "tamsin_maxwell": [
+        "tamsin_maxwell"
+    ], 
+    "theophile_gonos": [], 
+    "theresa_wilson": [
+        "theresa_wilson"
+    ], 
+    "thor_list": [
+        "thor_list"
+    ], 
+    "tim_colles": [], 
+    "timothy_jones": [], 
+    "timothy_lukins": [], 
+    "timothy_smith": [], 
+    "vashti_galpin": [
+        "vashti_galpin"
+    ], 
+    "vera_demberg": [
+        "vera_demberg"
+    ], 
+    "verena_rieser": [], 
+    "viatcheslav_fedorovich": [], 
+    "victor_lavrenko": [
+        "victor_lavrenko"
+    ], 
+    "vijay_nagarajan": [
+        "zheng_wang", 
+        "vijay_nagarajan"
+    ], 
+    "wenfei_fan": [
+        "wenfei_fan"
+    ], 
+    "willem_heijltjes": [
+        "finlay_stewart", 
+        "rowland_sillito", 
+        "subramanian_ramamoorthy", 
+        "willem_heijltjes", 
+        "yijun_xiao", 
+        "paul_taylor", 
+        "michael_chan", 
+        "paul_jackson", 
+        "graham_ritchie", 
+        "george_christelis", 
+        "francesco_figari", 
+        "jafreezal_jaafar", 
+        "julian_gutierrez", 
+        "christopher_geib"
+    ], 
+    "xibei_jia": [
+        "xibei_jia"
+    ], 
+    "yijun_xiao": [
+        "finlay_stewart", 
+        "rowland_sillito", 
+        "alan_black", 
+        "willem_heijltjes", 
+        "yijun_xiao", 
+        "paul_taylor", 
+        "michael_chan", 
+        "george_christelis", 
+        "francesco_figari", 
+        "jafreezal_jaafar", 
+        "christopher_geib"
+    ], 
+    "yin_chen": [], 
+    "zheng_wang": [
+        "marek_kwiatkowski", 
+        "edwin_bonilla", 
+        "alastair_murray", 
+        "zheng_wang", 
+        "vijay_nagarajan", 
+        "john_thomson"
+    ]
+}

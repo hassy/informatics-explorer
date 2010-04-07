@@ -1,0 +1,882 @@
+{
+    "abhishek_arun": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "adam_lopez": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "adrian_haith": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "alan_black": {
+        "name": "Human Communication Research Centre", 
+        "url": "http://www.inf.ed.ac.uk/research/hcrc/"
+    }, 
+    "alan_bundy": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "alastair_murray": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "alex_lascarides": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "alexander_simpson": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "alexander_voss": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "alexandros-sotiris_belesiotis": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "alison_pease": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "allan_clark": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "amin_coja-oghlan": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "amos_storkey": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "amy_isard": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "andrew_blake": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "andrew_dai": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "andrew_fugard": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "annabel_harrison": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "anthony_to": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "aristeidis_efthymiou": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "aroosha_laghaee": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "bahareh_afshari": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "barbara_webb": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "barry_haddow": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "beatrice_alex": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "benedict_kavanagh": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "benjamin_hachey": {
+        "name": "Human Communication Research Centre", 
+        "url": "http://www.inf.ed.ac.uk/research/hcrc/"
+    }, 
+    "benjamin_williams": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "bilal_malik": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "bjoern_franke": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "bonnie_webber": {
+        "name": "Informatics Life-Sciences Institute", 
+        "url": "http://www.inf.ed.ac.uk/research/ilsi/"
+    }, 
+    "carlos_acosta-leon": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "carsten_brockmann": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "charles_sutton": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "chris_fensch": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "chris_williams": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "christophe_dubach": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "christopher_ball": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "christopher_bishop": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "christopher_geib": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "christopher_walton": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "cian_odonnell": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "claire_grover": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "colin_fraser": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "colin_stirling": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "constantino_ribeiro": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "damon_fenacci": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "daniel_jones": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "dave_robertson": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "david_aspinall": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "david_barber": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "david_glasspool": {
+        "name": "Informatics Life-Sciences Institute", 
+        "url": "http://www.inf.ed.ac.uk/research/ilsi/"
+    }, 
+    "david_lambert": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "david_sterratt": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "david_willshaw": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "donald_sannella": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "douglas_armstrong": {
+        "name": "Informatics Life-Sciences Institute", 
+        "url": "http://www.inf.ed.ac.uk/research/ilsi/"
+    }, 
+    "edwin_bonilla": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "emily_thomforde": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "ewan_klein": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "ewen_denney": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "ewen_maclean": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "felix_agakov": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "finlay_stewart": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "fiona_mcneill": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "francesco_figari": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "frank_keller": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "gagarine_yaikhom": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "gayathri_nadarajan": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "george_christelis": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "georgios_petkos": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "gerhard_wickler": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "gordon_plotkin": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "graham_ritchie": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "grant_passmore": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "gudmund_grov": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "guido_sanguinetti": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "guy_billings": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "helen_pain": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "henry_thompson": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "heriberto_cuayahuitl": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "hieu_hoang": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "hiroshi_shimodaira": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "hugh_leather": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "ian_stark": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "igor_bohm": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "iyad_rahwan": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "jafreezal_jaafar": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "james_bednar": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "james_cheney": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "jan_wessnitzer": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "jane_hillston": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "jaroslav_sevcik": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "jay_bradley": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "jean_carletta": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "jeffrey_dalton": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "jessica_chen-burger": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "jim_miller": {
+        "name": "Human Communication Research Centre", 
+        "url": "http://www.inf.ed.ac.uk/research/hcrc/"
+    }, 
+    "joanna_young": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "john_lee": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "john_longley": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "john_power": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "john_thomson": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "jolyon_frankel": {
+        "name": "Human Communication Research Centre", 
+        "url": "http://www.inf.ed.ac.uk/research/hcrc/"
+    }, 
+    "jon_oberlander": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "jonathan_kilgour": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "joseph_spadavecchia": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "judith_good": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "judith_kirkwood-law": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "julian_bradfield": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "julian_gutierrez": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "kallirroi_georgila": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "kate_byrne": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "keith_stenning": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "konstantinos_krikellas": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "kousha_etessami": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "lawrence_murray": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "le_zhang": {
+        "name": "Human Communication Research Centre", 
+        "url": "http://www.inf.ed.ac.uk/research/hcrc/"
+    }, 
+    "leonid_libkin": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "liangxiu_han": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "louise_dennis": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "lucas_dixon": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "mahesh_marina": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "malvina_nissim": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "marcelo_cintra": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "marek_kwiatkowski": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "mark_longair": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "mark_mcconville": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "mark_steedman": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "mary_cryan": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "massimo_felici": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "matthew_aylett": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "matthias_hennig": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "michael_berger": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "michael_chan": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "michael_dewar": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "michael_fourman": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "michael_mangan": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "michael_pedersen": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "michael_rovatsos": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "mike_just": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "miles_osborne": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "mirella_lapata": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "moa_johansson": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "murray_cole": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "narayanan_edakkunni": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "nigel_goddard": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "nigel_topham": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "nikolas_ioannou": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "ohad_kammar": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "oliver_lemon": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "oscar_almer": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "paolo_besana": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "patrick_creed": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "patrick_sturt": {
+        "name": "Human Communication Research Centre", 
+        "url": "http://www.inf.ed.ac.uk/research/hcrc/"
+    }, 
+    "paul_anderson": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "paul_crook": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "paul_jackson": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "paul_taylor": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "pei-yun_hsueh": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "perdita_stevens": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "peter_buneman": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "philip_wadler": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "philipp_koehn": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "rahul_santhanam": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "randy_pollack": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "richard_cox": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "richard_mayr": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "richard_shillcock": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "richard_tobin": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "robert_fisher": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "robert_kyle": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "robert_procter": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "rodney_burstall": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "roland_ibbett": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "ronan_daly": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "rowland_sillito": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "sasha_calhoun": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "scott_blunsden": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "sean_hammond": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "sean_wilson": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "sebastian_riedel": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "sethu_vijayakumar": {
+        "name": "Informatics Life-Sciences Institute", 
+        "url": "http://www.inf.ed.ac.uk/research/ilsi/"
+    }, 
+    "shahriar_bijani": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "sharon_givon": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "sharon_goldwater": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "shmuel_brody": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "shuai_ma": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "simon_king": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "sofia_pediaditaki": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "sripriya_g": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "stephen_gilmore": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "stephen_potter": {
+        "name": "Centre for Intelligent Systems and their Applications", 
+        "url": "http://www.inf.ed.ac.uk/research/cisa/"
+    }, 
+    "steve_renals": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "stratis_viglas": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "stuart_aitken": {
+        "name": "Informatics Life-Sciences Institute", 
+        "url": "http://www.inf.ed.ac.uk/research/ilsi/"
+    }, 
+    "stuart_anderson": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "subramanian_ramamoorthy": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "taku_komura": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "tamsin_maxwell": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "theophile_gonos": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "theresa_wilson": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "thor_list": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "tim_colles": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "timothy_jones": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "timothy_lukins": {
+        "name": "Institute for Adaptive and Neural Computation", 
+        "url": "http://www.inf.ed.ac.uk/research/ianc/"
+    }, 
+    "timothy_smith": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "vashti_galpin": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "vera_demberg": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "verena_rieser": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "viatcheslav_fedorovich": {
+        "name": "Informatics Life-Sciences Institute", 
+        "url": "http://www.inf.ed.ac.uk/research/ilsi/"
+    }, 
+    "victor_lavrenko": {
+        "name": "Institute for Communicating and Collaborative Systems", 
+        "url": "http://www.inf.ed.ac.uk/research/iccs/"
+    }, 
+    "vijay_nagarajan": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "wenfei_fan": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "willem_heijltjes": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "xibei_jia": {
+        "name": "Laboratory for Foundations of Computer Science", 
+        "url": "http://www.inf.ed.ac.uk/research/lfcs/"
+    }, 
+    "yijun_xiao": {
+        "name": "Institute of Perception, Action and Behaviour", 
+        "url": "http://www.inf.ed.ac.uk/research/ipab/"
+    }, 
+    "yin_chen": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }, 
+    "zheng_wang": {
+        "name": "Institute for Computing Systems Architecture", 
+        "url": "http://www.inf.ed.ac.uk/research/icsa/"
+    }
+}

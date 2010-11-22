@@ -8,9 +8,9 @@ Also check out short video presentations of this and other projects on [IDEA lab
 
 **Screenshots**
 
-![Screenshot](http://github.com/hassy/informatics-explorer/raw/master/static/screenshots/wordcloud.png "Screenshot")
-![Screenshot](http://github.com/hassy/informatics-explorer/raw/master/static/screenshots/igraph.png "Screenshot")
-![Screenshot](http://github.com/hassy/informatics-explorer/raw/master/static/screenshots/sgraph.png "Screenshot")
+![Screenshot](https://github.com/hassy/informatics-explorer/raw/master/static/screenshots/wordcloud.png "Screenshot")
+![Screenshot](https://github.com/hassy/informatics-explorer/raw/master/static/screenshots/igraph.png "Screenshot")
+![Screenshot](https://github.com/hassy/informatics-explorer/raw/master/static/screenshots/sgraph.png "Screenshot")
 
 **License**  
 
